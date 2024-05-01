@@ -10,13 +10,25 @@ body {
   background-color: #001826 !important;
   color: rgb(226, 223, 223) !important;
 }
-
+.hero-name {
+  font-size: 45px;
+  padding: 10px 0px 10px 0px;
+  font: bold;
+}
+.hero-text {
+  font-size: 30px;
+}
+.section-padding {
+  margin-top: 130px;
+}
 .heading {
   display: flex;
   justify-content: center;
   padding-top: 75px;
 }
 .about-img {
+  width: 500px;
+  height: auto;
   border-radius: 30px 90px 30px 20px;
 }
 .xp-logo {
