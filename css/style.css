@@ -1,6 +1,11 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 body {
   background-color: #001826 !important;
   color: rgb(226, 223, 223) !important;
+}
+#toggler-icon {
+  color: rgb(226, 223, 223);
+  font-size: 35px;
 }
 .nav-logo {
   width: 45px;
@@ -8,8 +13,11 @@ body {
 }
 .nav-design {
   background-color: #001826 !important;
+}
+.nav-link {
   color: rgb(226, 223, 223) !important;
 }
+
 .hero-name {
   font-size: 45px;
   padding: 10px 0px 10px 0px;
@@ -18,8 +26,12 @@ body {
 .hero-text {
   font-size: 30px;
 }
+.hero-img {
+  width: 500px;
+  height: auto;
+}
 .section-padding {
-  margin-top: 130px;
+  margin-top: 40px;
 }
 .heading {
   display: flex;
@@ -27,9 +39,13 @@ body {
   padding-top: 75px;
 }
 .about-img {
-  width: 500px;
+  width: 450px;
   height: auto;
   border-radius: 30px 90px 30px 20px;
+}
+.about-img-sec {
+  display: flex;
+  justify-content: center;
 }
 .xp-logo {
   display: flex;
@@ -66,4 +82,22 @@ body {
 }
 .last-line {
   margin-top: 100px;
+}
+
+/* Media Query */
+
+@media (max-width: 576px) {
+  .hero-name {
+    font-size: 40px;
+    padding: 10px 0px 10px 0px;
+    font: bold;
+  }
+  .hero-img {
+    width: 340px;
+    height: auto;
+  }
+  .about-img {
+    width: 340px;
+    height: auto;
+  }
 }

@@ -11,51 +11,51 @@
     <!-- <h1 class="d-flex justify-content-center">Hello World</h1> -->
     <!--Navbar Section start-->
     <nav
-      class="navbar navbar-expand-lg bg-body-tertiary nav-design shadow-lg bg-body-tertiary fixed-top"
+      class="navbar navbar-expand-lg bg-body-tertiary nav-design shadow-lg fixed-top"
     >
-      <div class="container">
-        <div class="d-flex justify-content-start">
-          <a class="navbar-brand" href="#"
-            ><img class="nav-logo" src="./assets/nav-logo.png" alt=""
-          /></a>
-        </div>
-
+      <div class="container nav-design">
+        <a class="navbar-brand" href="#"
+          ><img class="nav-logo" src="./assets/nav-logo.png" alt="nav-logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <!-- <i class="bi bi-border-width" id="toggler-icon"></i> -->
+          <i class="bi bi-filter-right" id="toggler-icon"></i>
         </button>
-
-        <div
-          class="collapse navbar-collapse nav-design d-flex justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a
-                class="nav-link active text-light"
-                aria-current="page"
-                href="#about"
+              <a class="nav-link active" aria-current="page" href="#about"
                 >About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#skill">Skills</a>
+              <a class="nav-link active" aria-current="page" href="#skill"
+                >Skills</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#experiance">Experiance</a>
+              <a class="nav-link active" aria-current="page" href="#experiance"
+                >Experiance</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#Certificate">Certificate</a>
+              <a class="nav-link active" aria-current="page" href="#certificate"
+                >Certificates</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#contact">Contact</a>
+              <a class="nav-link active" aria-current="page" href="#contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -64,9 +64,9 @@
     <!--Navbar Section end-->
 
     <!--Hero Section Start-->
-    <div class="container section-padding">
+    <div class="container section-padding pt-5">
       <div class="row">
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
           <p>Hello, I am</p>
           <h1 class="hero-name">𝕄𝔻. ℕ𝕌ℝ𝕌ℤℤ𝔸𝕄𝔸ℕ</h1>
           <h2 class="py-2 hero-text">
@@ -77,16 +77,14 @@
             React Native and React.js. Eager to contribute to meaningful
             projects and continue learning.
           </p>
-          <p>
-            <br />Have any project idea? <a href="#contact"> Get in touch</a>
-          </p>
+          <p>Have any project idea? <a href="#contact"> Get in touch</a></p>
           <p></p>
         </div>
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 about-img-sec">
           <img
-            class="px-5 pb-5 w-100"
+            class="p-3 about-img"
             src="./assets/herologo.png"
-            alt="heroimg"
+            alt="hero-img"
           />
         </div>
       </div>
@@ -95,12 +93,12 @@
 
     <!--About Section Start-->
     <h1 id="about" class="heading">About Me</h1>
-    <div class="container p-5">
+    <div class="container section-padding mb-4">
       <div class="row">
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 about-img-sec">
           <img class="p-3 about-img" src="./assets/me2.png" alt="my-picture" />
         </div>
-        <div class="col-6 p-3">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
           <p>
             I'm a passionate software engineer with a strong interest in
             competitive programming and problem-solving. I thoroughly enjoy
@@ -124,9 +122,9 @@
 
     <!--Skill Section Start-->
     <h1 id="skill" class="heading">Skills</h1>
-    <div class="container p-5 mb-5">
+    <div class="container section-padding mb-5">
       <div class="row">
-        <div class="col-2">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
             <img
               class="icon"
@@ -135,200 +133,143 @@
             />
             <p>C</p>
           </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/express.42e253f1a7fded899fafcc8b94cb0210.svg"
-              alt="EXPRESS"
-            />
-            <p>EXPRESS</p>
-          </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/notion.788da1cce553c0bbd4f85b1aaee40405.svg"
-              alt="NOTION"
-            />
-            <p>NOTION</p>
-          </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/slack.29351e5636dcd7fd839b2cfbc0fe1103.svg"
-              alt="SLACK"
-            />
-            <p>SLACK</p>
-          </div>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/cplus.157c521f834a949ff5c229c7295c3446.svg"
-              alt="C++"
-            />
+            <img class="icon" src="./icons/c++.png" alt="C++" />
             <p>C++</p>
           </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/react.1520bd67b9711ed91ace46b169bc2491.svg"
-              alt="REACT JS | NATIVE"
-            />
-            <p>REACT JS | NATIVE</p>
-          </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/trello.5f296cffa4fa0411f29877ac6bbbe201.svg"
-              alt="TRELLO"
-            />
-            <p>TRELLO</p>
-          </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/firebase.c5ed7d714c27503a0157059c6d000dc3.svg"
-              alt="FIREBASE"
-            />
-            <p>FIREBASE</p>
+            <img class="icon" src="./icons/chash.png" alt="C#" />
+            <p>C#</p>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/javascript.de4c2594613e34b15666206bbede7327.svg"
-              alt="JAVASCRIPT"
-            />
-            <p>JAVASCRIPT</p>
+            <img class="icon" src="./icons/html.png" alt="html" />
+            <p>html</p>
           </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/nodejs.ea0b6603e0b3418f18d798ec01923d9e.svg"
-              alt="NODE JS"
-            />
-            <p>NODE JS</p>
+            <img class="icon" src="./icons/css.png" alt="CSS" />
+            <p>CSS</p>
           </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/html.71184de1bd479bde61ee1d0c58d798d0.svg"
-              alt="HTML"
-            />
-            <p>HTML</p>
+            <img class="icon" src="./icons/bootstrap.png" alt="bootstrap" />
+            <p>BOOTSTRAP</p>
           </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/mysql.caaaad53516f6468f3e51ffbbb261397.svg"
-              alt="SQL"
-            />
+            <img class="icon" src="./icons/sql.png" alt="SQL" />
             <p>SQL</p>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/typescript.a35ece2189e575099d6316f9389b52e9.svg"
-              alt="TYPESCRIPT"
-            />
+            <img class="icon" src="./icons/mongodb.png" alt="MONGODB" />
+            <p>MONGODB</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/javascript.png" alt="JAVASCRIPT" />
+            <p>JAVASCRIPT</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/typescript.png" alt="TYPESCRIPT" />
             <p>TYPESCRIPT</p>
           </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/unity.4a18efadcba1142bee5a2b025ff53e3a.svg"
-              alt="UNITY"
-            />
+            <img class="icon" src="./icons/express.png" alt="EXPRESS" />
+            <p>EXPRESS</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/reactjs.png" alt="REACTJS" />
+            <p>REACTJS</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/nodejs.png" alt="NODEJS" />
+            <p>NODEJS</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/github.png" alt="GITHUB" />
+            <p>GITHUB</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/gitlab.png" alt="GITLAB" />
+            <p>GITLAB</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/unity.png" alt="UNITY" />
             <p>UNITY</p>
           </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/css.84e425077fc2d43f98cabb0d566ed8b1.svg"
-              alt="CSS"
-            />
-            <p>CSS</p>
+            <img class="icon" src="./icons/scss.png" alt="SCSS" />
+            <p>SCSS</p>
           </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/androidstudio.289e392d0a0d7a7fc3b1956bd3448eff.svg"
-              alt="ANDROID"
-            />
+            <img class="icon" src="./icons/trello.png" alt="TRELLO" />
+            <p>TRELLO</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/notion.png" alt="NOTION" />
+            <p>NOTION</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/slack.png" alt="SLACK" />
+            <p>SLACK</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/firebase.png" alt="FIREBASE" />
+            <p>FIREBASE</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+          <div class="xp-logo">
+            <img class="icon" src="./icons/android.png" alt="ANDROID" />
             <p>ANDROID</p>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/csharp.12579b103cd8156f172df3622376b170.svg"
-              alt="C#"
-              TYPESCRIPT
-              TYPESCRIPT
-            />
-            <p>C#</p>
-          </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/github.db9d21a94bc7555a7cd0000cb675bca0.svg"
-              alt="GITHUB"
-            />
-            <p>GITHUB</p>
-          </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/sass.9dd55eb0718c821547750fb0478b29a8.svg"
-              alt="SCSS"
-            />
-            <p>SCSS</p>
-          </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/aws.8ff79c70dc24acf97212678ff1a620e5.svg"
-              alt="AWS"
-            />
+            <img class="icon" src="./icons/aws.png" alt="AWS" />
             <p>AWS</p>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
           <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/mongodb.61edd2b59f54b77f375d8cc351ed279a.svg"
-              alt="MONGODB"
-            />
-            <p>MONGODB</p>
-          </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/gitlab.9d0884b3585a737dd80a0736f8a81c1d.svg"
-              alt="GITLAB"
-            />
-            <p>GITLAB</p>
-          </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/bootstrap.bd668c7bf87d4a50c531ab50462c189e.svg"
-              alt="BOOTSTRAB"
-            />
-            <p>BOOTSTRAB</p>
-          </div>
-          <div class="xp-logo">
-            <img
-              class="icon"
-              src="https://reaziii.github.io/static/media/php.9d705f4613cad7627f700ae3050f2886.svg"
-              alt="PHP"
-            />
+            <img class="icon" src="./icons/php.png" alt="PHP" />
             <p>PHP</p>
           </div>
         </div>
@@ -338,7 +279,7 @@
 
     <!--Experiance section Start-->
     <h1 id="experiance" class="heading">Experiance</h1>
-    <div class="container p-5" style="margin-bottom: 200px">
+    <div class="container section-padding" style="margin-bottom: 200px">
       <div class="row">
         <div class="col-1"><div class="vl"></div></div>
         <div class="col-4">
@@ -358,48 +299,49 @@
     <!--Experiance section End-->
 
     <!--Certificate Section Start-->
-    <h1 id="Certificate" class="heading">Certificate</h1>
-    <div class="container p-5 mb-5">
+    <h1 id="certificate" class="heading">Certificates</h1>
+    <div class="container section-padding mb-5">
       <div class="row">
         <div class="col-12">
           <div class="cp">
-            <div class="cart-name">ICPC Dhaka Regional Participant</div>
-            <div class="cart-year">2023</div>
-          </div>
-
-          <div class="cp">
-            <div class="cart-name">BUET IUPC Participant</div>
-            <div class="cart-year">2023</div>
+            <div class="cart-name">
+              INTRA IST PROGRAMMING CONTEST 1st Runner Up
+            </div>
+            <div class="cart-year">2022</div>
           </div>
 
           <div class="cp">
             <div class="cart-name">INTRA IST PROGRAMMING CONTEST Champion</div>
             <div class="cart-year">2023</div>
           </div>
-
+          <div class="cp">
+            <div class="cart-name">ICPC Dhaka Regional Participant</div>
+            <div class="cart-year">2023</div>
+          </div>
+          <div class="cp">
+            <div class="cart-name">BUET IUPC Participant</div>
+            <div class="cart-year">2023</div>
+          </div>
+          <div class="cp">
+            <div class="cart-name">COU-Bracnet IUPC Participant</div>
+            <div class="cart-year">2023</div>
+          </div>
+          <div class="cp">
+            <div class="cart-name">JU NCPC Participant</div>
+            <div class="cart-year">2023</div>
+          </div>
+          <div class="cp">
+            <div class="cart-name">CUET IUPC Participant</div>
+            <div class="cart-year">2024</div>
+          </div>
           <div class="cp">
             <div class="cart-name">SUST IUPC Participant</div>
             <div class="cart-year">2024</div>
           </div>
 
           <div class="cp">
-            <div class="cart-name">COU-Bracnet IUPC Participant</div>
-            <div class="cart-year">2023</div>
-          </div>
-
-          <div class="cp">
-            <div class="cart-name">CUET IUPC Participant</div>
-            <div class="cart-year">2024</div>
-          </div>
-
-          <div class="cp">
-            <div class="cart-name">JU NCPC Participant</div>
-            <div class="cart-year">2023</div>
-          </div>
-
-          <div class="cp">
             <div class="cart-name">IUT IUPC Participant</div>
-            <div class="cart-year">2023</div>
+            <div class="cart-year">2024</div>
           </div>
         </div>
       </div>
@@ -408,7 +350,7 @@
 
     <!--Footer start-->
     <h1 id="contact" class="heading">Get In Touch</h1>
-    <div class="container p-5">
+    <div class="container section-padding">
       <div class="row">
         <div class="col-12 footer-section">
           <p>
