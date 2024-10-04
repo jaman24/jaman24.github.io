@@ -43,6 +43,10 @@ body {
   height: auto;
   border-radius: 30px 90px 30px 20px;
 }
+.booknest-img {
+  width: 400px;
+  height: auto;
+}
 .about-img-sec {
   display: flex;
   justify-content: center;
@@ -97,6 +101,10 @@ body {
     height: auto;
   }
   .about-img {
+    width: 340px;
+    height: auto;
+  }
+  .booknest-img {
     width: 340px;
     height: auto;
   }
